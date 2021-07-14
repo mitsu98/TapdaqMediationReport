@@ -6,7 +6,7 @@ Tapdaq Mediation Report is an app to monitor and control your revenue from your 
 
 Screenshots
 -----------
-<img src="https://github.com/axlyody/TapdaqMediationReport/raw/master/image/img1.png" width="300px"> <img src="https://github.com/axlyody/TapdaqMediationReport/raw/master/image/img2.png" width="300px">
+<img src="https://github.com/yooody/TapdaqMediationReport/raw/master/image/img1.png" width="300px"> <img src="https://github.com/yooody/TapdaqMediationReport/raw/master/image/img2.png" width="300px">
 
 Download
 --------
