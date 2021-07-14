@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ styles.xml
+  ~ Copyright 2020 Axl Yody <axlyod@gmail.com>
+  ~
+  -->
+
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+        <item name="android:windowLightNavigationBar">?attr/isLightTheme</item>
+
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+
+
+        <item name="android:navigationBarColor">@color/colorSemi</item>
+        <item name="toolbarStyle">@style/Layout.ToolbarStyle</item>
+        <item name="appBarLayoutStyle">@style/Layout.AppBarStyle</item>
+        <item name="textInputStyle">@style/Layout.TextInputStyle</item>
+        <item name="actionBarStyle">@style/Layout.ActionMenuStyle</item>
+        <item name="materialCardViewStyle">@style/Layout.CardStyle</item>
+
+
+
+        <item name="android:fontFamily">@font/sf</item>
+        <item name="bottomNavigationStyle">@style/Layout.BottomNavigationStyle</item>
+    </style>
+</resources>

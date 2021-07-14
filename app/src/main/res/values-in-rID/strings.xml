@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tapdaq Mediation Report</string>
+    <string name="main_wait">tunggu</string>
+    <string name="main_save">simpan</string>
+    <string name="main_error_wrong_api_token">API Token Reporting salah</string>
+    <string name="main_error_field_blank">Kolom tidak boleh kososng</string>
+    <string name="main_error_token_must_36_chars">Token harus 36 karakter</string>
+    <string name="main_how_to_get_token">Cara mendapatkan Reporting API Key?\n\n- Masuk ke tapdaq.com\n- Klik your account\n- Reporting API\n- Generate API lalu salin kemudian tempel disini</string>
+    <string name="main_reporting_api_key">Reporting API Key</string>
+    <string name="main_tapdaq_mediation_report">tapdaq mediation report</string>
+
+
+    <string name="home_my_revenue">penghasilan saya</string>
+    <string name="home_today">hari ini</string>
+    <string name="home_last_7_days">7 hari lalu</string>
+    <string name="home_last_30_days">30 hari lalu</string>
+    <string name="home_revenue_last_7_days">penghasilan 7 hari lalu</string>
+    <string name="home_networks">jaringan</string>
+    <string name="home_logout">keluar</string>
+</resources>

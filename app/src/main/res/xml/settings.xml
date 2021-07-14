@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ settings.xml
+  ~ Copyright 2020 Axl Yody <axlyod@gmail.com>
+  ~
+  -->
+
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:persistent="true"
+        android:title="service">
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:enabled="true"
+            app:key="dailyService"
+            android:icon="@drawable/ic_c_service"
+            app:summary="Retrieve daily data revenue in background. Disable this will affect for getting daily revenue milestone notification"
+            app:title="start daily service" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:enabled="true"
+            android:icon="@drawable/ic_c_notification"
+            app:key="revenueMilestone"
+            app:summary="get notified when your revenue earn much more or less than usual"
+            app:title="notify revenue milestone" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

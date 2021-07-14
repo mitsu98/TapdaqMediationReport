@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+        android:id="@+id/tb_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hasClearButton="true"
+        app:iconSignifier="@drawable/ic_c_key"
+        app:labelText="@string/main_reporting_api_key"
+        app:maxCharacters="36"
+        app:useDenseSpacing="true">
+
+        <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+            android:id="@+id/tx_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+    <Button
+        android:id="@+id/bt_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tb_key"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/main_save"
+        android:textColor="@android:color/white" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_save"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/ic_c_help"
+        android:drawablePadding="16dp"
+        android:text="@string/main_how_to_get_token" />
+
+</RelativeLayout>

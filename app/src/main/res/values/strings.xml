@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Tapdaq Mediation Report</string>
+    <string name="main_wait">Wait</string>
+    <string name="main_save">Save</string>
+    <string name="main_error_wrong_api_token">Wrong API Token Reporting</string>
+    <string name="main_error_field_blank">Field can not be blank</string>
+    <string name="main_error_token_must_36_chars">Token must be 36 characters</string>
+    <string name="main_how_to_get_token">How to get Reporting API Key?\n\n- Login to tapdaq.com\n- Click your account\n- Reporting API\n- Generate API then copy and paste here</string>
+    <string name="main_reporting_api_key">Reporting API Key</string>
+    <string name="main_tapdaq_mediation_report">Tapdaq Mediation Report</string>
+
+
+    <string name="home_my_revenue">my revenue</string>
+    <string name="home_today">today revenue</string>
+    <string name="home_last_7_days">last 7 days</string>
+    <string name="home_last_30_days">last 30 days</string>
+    <string name="home_revenue_last_7_days">revenue last 7 days</string>
+    <string name="home_networks">networks</string>
+    <string name="home_logout">logout</string>
+
+    <string name="menu_about">about</string>
+    <string name="menu_logout">logout</string>
+
+
+    <string name="about">about</string>
+</resources>

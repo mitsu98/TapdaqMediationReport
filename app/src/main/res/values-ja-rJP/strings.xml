@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tapdaq仲介レポート</string>
+    <string name="main_wait">待つ</string>
+    <string name="main_save">セーブ</string>
+    <string name="main_error_wrong_api_token">間違ったAPIトークンレポート</string>
+    <string name="main_error_field_blank">フィールドを空白にすることはできません</string>
+    <string name="main_error_token_must_36_chars">トークンは36文字である必要があります</string>
+    <string name="main_how_to_get_token">レポートAPIキーを取得するには？\n\n- にログインする tapdaq.com\n- アカウントをクリッ\n- レポートAPI\n- APIを生成し、ここでコピー＆ペースト</string>
+    <string name="main_reporting_api_key">レポートAPIキー</string>
+    <string name="main_tapdaq_mediation_report">tapdaq仲介レポート</string>
+
+
+    <string name="home_my_revenue">私の収入</string>
+    <string name="home_today">きょう</string>
+    <string name="home_last_7_days">過去7日間</string>
+    <string name="home_last_30_days">過去30日間</string>
+    <string name="home_revenue_last_7_days">収益最後7日間</string>
+    <string name="home_networks">ネットワー</string>
+    <string name="home_logout">ログアウト</string>
+</resources>

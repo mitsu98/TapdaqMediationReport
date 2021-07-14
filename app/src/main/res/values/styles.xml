@@ -1,0 +1,89 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="toolbarStyle">@style/Layout.ToolbarStyle</item>
+        <item name="appBarLayoutStyle">@style/Layout.AppBarStyle</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+        <item name="textInputStyle">@style/Layout.TextInputStyle</item>
+        <item name="actionBarStyle">@style/Layout.ActionMenuStyle</item>
+
+        <item name="cardViewStyle">@style/Layout.CardStyle</item>
+
+
+        <item name="android:fontFamily">@font/sf</item>
+        <item name="bottomNavigationStyle">@style/Layout.BottomNavigationStyle</item>
+    </style>
+
+
+    <style name="Layout.BottomNavigationStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="elevation">0dp</item>
+        <item name="android:background">@color/colorSemi</item>
+    </style>
+
+
+    <style name="Layout.TextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+    </style>
+
+    <style name="Layout.ToolbarStyle" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">?attr/colorSurface</item>
+        <item name="android:titleTextAppearance">?attr/textAppearanceHeadline1</item>
+        <item name="android:elevation">0dp</item>
+
+        <item name="android:fontFamily">@font/sf</item>
+        <item name="fontFamily">@font/sf</item>
+    </style>
+
+    <style name="Toolbar.TextStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/sf</item>
+        <item name="fontFamily">@font/sf</item>
+    </style>
+
+    <style name="Layout.CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardForegroundColor">@color/colorSemi</item>
+    </style>
+
+    <style name="Layout.ActionMenuStyle" parent="Widget.MaterialComponents.ActionBar.Primary">
+        <item name="textAllCaps">true</item>
+        <item name="elevation">0dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:fontFamily">@font/sf</item>
+        <item name="fontFamily">@font/sf</item>
+
+    </style>
+
+    <style name="Layout.AppBarStyle" parent="Widget.Design.AppBarLayout">
+
+        <item name="android:fontFamily">@font/sf</item>
+        <item name="fontFamily">@font/sf</item>
+    </style>
+
+
+    <style name="Layout.ActionBarStyle" parent="ThemeOverlay.MaterialComponents.ActionBar">
+
+    </style>
+
+
+
+    <!-- set the rounded drawable as background to your bottom sheet -->
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">?attr/colorSurface</item>
+    </style>
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.BottomSheetDialog">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+
+</resources>

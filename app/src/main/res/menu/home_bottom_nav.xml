@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_overview"
+        android:icon="@drawable/ic_c_overview"
+        android:title="Overview" />
+    <item
+        android:id="@+id/nav_apps"
+        android:icon="@drawable/ic_c_apps"
+        android:title="Apps" />
+    <item
+        android:id="@+id/nav_mediation"
+        android:icon="@drawable/ic_c_mediation"
+        android:title="Mediation" />
+
+
+</menu>
