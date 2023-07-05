@@ -1,9 +1,10 @@
 # Tapdaq Mediation Report
 
+Tapdaq Mediation Report is an app to monitor and control your revenue from your phone.
+
 ### DEPRECATED
 Since Tapdaq closed their website
 
-Tapdaq Mediation Report is an app to monitor and control your revenue from your phone.
 
 ![alt text](https://github.com/yooody/TapdaqMediationReport/raw/master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png "Logo")
 
